@@ -1,2 +1,13 @@
+logging:
+  level:
+    org.hibernate.sql: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    com.air.webservice: TRACE
+    org.springframework: DEBUG
+
+spring:
+  messages:
+    basename: messages/messages
+
 server:
   port: 8002
