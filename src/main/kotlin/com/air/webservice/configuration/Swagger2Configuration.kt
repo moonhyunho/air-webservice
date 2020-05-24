@@ -14,10 +14,10 @@ class Swagger2Configuration {
 
     @Bean
     fun api(): Docket =
-            Docket(DocumentationType.SWAGGER_2)
-                    .select()
-                    .apis(RequestHandlerSelectors.basePackage("com.air.webservice.interfaces.controller"))
-                    .paths(PathSelectors.any())
-                    .build()
+        Docket(DocumentationType.SWAGGER_2)
+            .select()
+            .apis(RequestHandlerSelectors.basePackage("com.air.webservice.interfaces.controller"))
+            .paths(PathSelectors.any())
+            .build()
 
 }

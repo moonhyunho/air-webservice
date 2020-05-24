@@ -10,7 +10,7 @@ class HelloController {
     @GetMapping("/hello")
     fun hello(): ResponseEntity<String> {
         return ResponseEntity.ok(
-                "Hello!!"
+        "Hello!!"
         )
     }
 
